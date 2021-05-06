@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{cca25f34-0703-4214-92cd-a2bde44650f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Graphics">
+      <UniqueIdentifier>{3085ad40-903f-44c1-b791-1b6f3390509a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{5d776000-b6f1-45a5-b9cf-8beaa63b22a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Graphics">
+      <UniqueIdentifier>{6acd4d7b-2bf1-405e-ac46-73314f0b897a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CircuitElements">
+      <UniqueIdentifier>{cd65daeb-f85f-4df0-90ea-6f6d0df2b6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CircuitElements">
+      <UniqueIdentifier>{870c9f3d-cc9b-4db2-a433-32129866f31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Events">
+      <UniqueIdentifier>{fe286569-a964-4d66-803e-41205f515aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Events">
+      <UniqueIdentifier>{990e2dbd-e81d-4321-a5ff-9a439eaf73cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SharedState">
+      <UniqueIdentifier>{108519b3-e115-4835-9891-c32298e209e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\UserInterface">
+      <UniqueIdentifier>{3b321dbe-ad67-4b94-92fb-2420a1bf6098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\UserInterface">
+      <UniqueIdentifier>{008fde7f-0b6c-4ee2-a97d-105dd303f95a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Kursinis.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Fichiers sources\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderQueue.cpp">
+      <Filter>Fichiers sources\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CircuitElement.cpp">
+      <Filter>Fichiers sources\CircuitElements</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Fichiers sources\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Fichiers sources\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Fichiers sources\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AndGate.cpp">
+      <Filter>Fichiers sources\CircuitElements</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionPoint.cpp">
+      <Filter>Fichiers sources\CircuitElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Wire.cpp">
+      <Filter>Fichiers sources\CircuitElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Circuit.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalPoint.cpp">
+      <Filter>Fichiers sources\CircuitElements</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputPoint.cpp">
+      <Filter>Fichiers sources\CircuitElements</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelLoader.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TextLabel.cpp">
+      <Filter>Fichiers sources\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="NotGate.cpp">
+      <Filter>Fichiers sources\CircuitElements</Filter>
+    </ClCompile>
+    <ClCompile Include="OrGate.cpp">
+      <Filter>Fichiers sources\CircuitElements</Filter>
+    </ClCompile>
+    <ClCompile Include="XorGate.cpp">
+      <Filter>Fichiers sources\CircuitElements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Fichiers d%27en-tête\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderQueue.h">
+      <Filter>Fichiers d%27en-tête\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Fichiers d%27en-tête\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CircuitElement.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Fichiers d%27en-tête\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseEventHandler.h">
+      <Filter>Fichiers d%27en-tête\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEventHandler.h">
+      <Filter>Fichiers d%27en-tête\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardEventHandler.h">
+      <Filter>Fichiers d%27en-tête\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedState.h">
+      <Filter>Fichiers d%27en-tête\SharedState</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Fichiers d%27en-tête\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AndGate.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Fichiers d%27en-tête\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionPoint.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Wire.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Circuit.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalPoint.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+    <ClInclude Include="CircuitParams.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputPoint.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelLoader.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TextLabel.h">
+      <Filter>Fichiers d%27en-tête\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="NotGate.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+    <ClInclude Include="OrGate.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+    <ClInclude Include="XorGate.h">
+      <Filter>Fichiers d%27en-tête\CircuitElements</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,69 @@
+LEVEL 
+Level 1: And gate
+2 1
+GATES AND END_GATES
+TESTS
+    00 0
+    01 0
+    10 0
+    11 1
+END_TESTS
+END_LEVEL
+
+LEVEL 
+Level 2: Or gate fun
+4 1
+GATES OR END_GATES
+TESTS
+    0000 0
+    1000 1
+    0100 1
+    0010 1
+    0001 1
+    0101 1
+    1111 1
+END_TESTS
+END_LEVEL
+
+LEVEL 
+Level 3: Only one
+3 1
+GATES OR XOR END_GATES
+TESTS
+    000 0
+    100 1
+    010 1
+    001 1
+    110 0
+    101 0
+    011 0
+END_TESTS 
+END_LEVEL
+
+LEVEL 
+Level 4: XOR without XOR
+2 1
+GATES AND OR NOT END_GATES
+TESTS
+    00 0
+    10 1
+    01 1
+    11 0
+END_TESTS 
+END_LEVEL
+
+LEVEL
+Level 5: OR Except All
+3 1
+GATES OR NOT AND END_GATES 
+TESTS 
+    000 0
+    100 1
+    010 1
+    001 1
+    110 1
+    101 1
+    011 1
+    111 0
+END_TESTS
+END_LEVEL
