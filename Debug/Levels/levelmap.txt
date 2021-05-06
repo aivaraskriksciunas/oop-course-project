@@ -67,32 +67,3 @@ TESTS
     111 0
 END_TESTS
 END_LEVEL
-
-LEVEL
-Level 6: Add one
-3 3
-TESTS
-    000 001
-    001 010
-    010 011
-    011 100
-    101 110
-    110 111
-    111 000
-END_TESTS
-END_LEVEL
-
-LEVEL
-Level 7: four or five
-3 2
-TESTS
-    000 00
-    001 10
-    010 10
-    011 10
-    100 01
-    101 01
-    110 10
-    111 10
-END_TESTS
-END_LEVEL

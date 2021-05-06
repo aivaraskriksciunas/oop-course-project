@@ -70,7 +70,7 @@ int main()
             {
                 std::cout << lvl.test_cases[l][0] << " -> " << lvl.test_cases[l][1] << '\n';
             }
-            game.start( lvl );
+            game.start( lvl, 1024, 720 );
         }
     }
     
